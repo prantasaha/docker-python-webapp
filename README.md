@@ -27,14 +27,6 @@ Step 3: Prequisites for fast API
 
 Step 4: Now build the docker image
 
-I have pushed the image to docker hub. You can directly pull the image my running the following command 
-   
-   docker pull pranta96/python-fastapi:v1
-   
-Then start the webapp using following command 
-
-  sudo docker run -p 8000:8000 pranta96/python-fastapi:v1
-
 	docker build -t pranta-python-fastapi .
 
 Step 5: Now run the image
@@ -42,3 +34,11 @@ Step 5: Now run the image
 	docker run -p 8000:8000 pranta-python-fastapi
 
 Now The webapp should say hello world in the url: http://0.0.0.0:8000/ (to see random items use http://0.0.0.0:8000/items/item_number. Here item_number can be any integer)
+
+I have pushed the image to docker hub. You can directly pull the image my running the following command 
+   
+   docker pull pranta96/python-fastapi:v1
+   
+Then start the webapp using following command 
+
+  sudo docker run -p 8000:8000 pranta96/python-fastapi:v1
