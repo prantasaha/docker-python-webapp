@@ -41,4 +41,4 @@ I have pushed the image to docker hub. You can directly pull the image my runnin
    
 Then start the webapp using following command 
 
-  sudo docker run -p 8000:8000 pranta96/python-fastapi:v1
+  `sudo docker run -p 8000:8000 pranta96/python-fastapi:v1`
