@@ -37,7 +37,7 @@ Now The webapp should say hello world in the url: http://0.0.0.0:8000/ (to see r
 
 I have pushed the image to docker hub. You can directly pull the image my running the following command 
    
-   docker pull pranta96/python-fastapi:v1 
+   `docker pull pranta96/python-fastapi:v1 `
    
 Then start the webapp using following command 
 
